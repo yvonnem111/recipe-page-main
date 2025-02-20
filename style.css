@@ -1,3 +1,93 @@
-body {
-    /* background-color: blue; */
+@font-face {
+    font-family: Outfit;
+    src: url(./assets/fonts/outfit/Outfit-VariableFont_wght.ttf);
 }
+@font-face {
+    font-family: YoungSerif;
+    src: url(./assets/fonts/young-serif/YoungSerif-Regular.ttf);
+}
+body {  
+    font-family: Outfit, Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    background-color: #f3e5d8;
+    color: #302d2c;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2 {
+    font-family: YoungSerif, serif;
+    font-weight: 400;
+    font-size: 2em;
+    line-height: 1.2em;
+}
+h2 {
+    color: #854632;
+}
+h3 {
+    font-size: 1.2em;
+    color:  #7b284f;
+    margin: 0 0 0 20px;
+}
+span {
+    font-weight: bold;
+
+}
+section {
+    width: 600px;
+    padding: 25px;
+    background-color:#fff;
+    border-radius: 20px;
+    overflow: hidden;
+    margin: 50px 20px;
+}
+
+div {
+    border-bottom:1px solid #e4ded8;
+    padding-bottom: 20px;
+}
+div:last-child {
+    border-bottom:none;
+    }
+img {
+    width: 100%;
+    border-radius: 20px;
+}
+.pinkBg {
+    background-color: #fff5fa;
+    padding: 20px;
+    border-radius: 20px;
+    border: none;
+}
+
+li {
+    margin-bottom: 10px
+}
+
+ol {
+    list-style-position: outside;
+}
+
+ol li {
+padding-left: 5px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+tr {
+    border-bottom: 1px solid #e4ded8;
+}
+
+td {
+    padding: 10px;
+}
+.right{
+    color:#854632;
+    font-weight: bold;
+}
+
