@@ -6,6 +6,7 @@
     font-family: YoungSerif;
     src: url(./assets/fonts/young-serif/YoungSerif-Regular.ttf);
 }
+
 body {  
     font-family: Outfit, Arial, Helvetica, sans-serif;
     font-size: 15px;
@@ -23,18 +24,22 @@ h1, h2 {
     font-size: 2em;
     line-height: 1.2em;
 }
+
 h2 {
     color: #854632;
 }
+
 h3 {
     font-size: 1.2em;
     color:  #7b284f;
     margin: 0 0 0 20px;
 }
+
 span {
     font-weight: bold;
 
 }
+
 section {
     width: 600px;
     padding: 25px;
@@ -48,13 +53,16 @@ div {
     border-bottom:1px solid #e4ded8;
     padding-bottom: 20px;
 }
+
 div:last-child {
     border-bottom:none;
-    }
+}
+
 img {
     width: 100%;
     border-radius: 20px;
 }
+
 .pinkBg {
     background-color: #fff5fa;
     padding: 20px;
@@ -86,6 +94,7 @@ tr {
 td {
     padding: 10px;
 }
+
 .right{
     color:#854632;
     font-weight: bold;
